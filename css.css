@@ -43,6 +43,8 @@ body[mode="light"] .wrapper > input[type="button"]{
 
 body[mode="dark"] .wrapper > input[type="button"]{
     color: white !important;
+    background: transparent;
+    border: 2px solid white;
 }
 
 .wrapper > input[type="button"]:hover{

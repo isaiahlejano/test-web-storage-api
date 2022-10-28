@@ -24,4 +24,5 @@ $('input[type="button"]').on("click", function(){
             body.attr("mode","light");
             break;
     }
+    console.log(localStorage.getItem('mode'));
 });
