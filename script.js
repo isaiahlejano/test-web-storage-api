@@ -1,5 +1,6 @@
 localStorage.setItem('mode', 'dark');
 
+var body = $('body');
 switch(localStorage.getItem('mode')){
     case 'light':
         body.attr("mode","light");
