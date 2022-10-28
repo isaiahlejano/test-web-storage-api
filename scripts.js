@@ -1,4 +1,6 @@
-localStorage.setItem('mode', 'dark');
+if (localStorage.getItem('mode') === null) {
+    localStorage.setItem('mode', 'dark');
+}
 
 const body = $('body');
 
