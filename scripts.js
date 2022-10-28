@@ -10,3 +10,16 @@ switch(localStorage.getItem('mode')){
         body.attr("mode","dark");
         break;
 }
+
+$('input[type="button"]').on("click", function(){
+    switch(localStorage.getItem('mode')){
+        case 'light':
+            localStorage.setItem("mode", "dark");
+            body.attr("mode","dark");
+            break;
+        case 'dark':
+            localStorage.setItem("mode", "light");
+            body.attr("mode","light");
+            break;
+    }
+});
