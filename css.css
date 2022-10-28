@@ -37,6 +37,14 @@ body[mode="dark"]{
     cursor: pointer;
 }
 
+body[mode="light"] .wrapper > input[type="button"]{
+    color: black !important;
+}
+
+body[mode="dark"] .wrapper > input[type="button"]{
+    color: white !important;
+}
+
 .wrapper > input[type="button"]:hover{
     opacity: 0.75;
 }
