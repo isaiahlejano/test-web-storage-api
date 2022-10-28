@@ -1,3 +1,10 @@
-sessionStorage.setItem('mode', 'light');
+localStorage.setItem('mode', 'dark');
 
-console.log( sessionStorage.getItem('mode') );
+switch(localStorage.getItem('mode')){
+    case 'light':
+        body.attr("mode","light");
+        break;
+    case 'dark':
+        body.attr("mode","dark");
+        break;
+}
